@@ -8,7 +8,7 @@ import './assets/tailwind.css'
 
 Vue.config.productionTip = false
 
-new Vue({
+window._Vue = new Vue({
   router,
   store,
   render: h => h(App)
