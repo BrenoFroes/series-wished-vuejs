@@ -1,0 +1,21 @@
+<template>
+  <h2>OII</h2>
+</template>
+
+<script>
+import { mapActions } from 'vuex';
+
+export default {
+    mounted(){
+        this.ActionFindWatchlist();
+    },
+    methods:{
+        ...mapActions('watchlist', ['ActionFindWatchlist'])
+    }
+}
+</script>
+
+
+<style lang="scss" scoped>
+
+</style>
