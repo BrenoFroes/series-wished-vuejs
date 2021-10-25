@@ -1,7 +1,7 @@
 <template>
   <div class="home w-full h-screen p-5 mx-auto my-20 text-center">
     <div class="user-info container">
-      <h1 class="font-bold font-red-w600 text-xl">Olá, {{user.name}}</h1>
+      <h1 class="font-bold text-red-600 text-xl">Olá, {{user.name}}</h1>
       <p>Sejam bem-vindo</p>
     </div>
     <div class="container home-links grid grid-cols-3 gap-1 mt-10">
