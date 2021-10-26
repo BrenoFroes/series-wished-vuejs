@@ -6,7 +6,7 @@
                 <router-link
                     exact
                     :key="i"
-                    class="nav-item mx-10"
+                    class="nav-item ml-10"
                     exact-active-class="active"
                     :to="{name: route.name}"
                     v-for="(route, i) in routes"

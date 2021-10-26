@@ -15,14 +15,6 @@
           {{ route.meta.label }}
         </span>
       </router-link>
-      <a href="#" class="home-link mx-10 py-10 px-28 text-sm bg-green-500 flex items-center">
-        <i class="material-icons md-36">playlist_add_check</i>
-        <span>Já assisti</span>
-      </a>
-      <a href="#" class="home-link mx-10 py-10 px-28 text-sm bg-blue-500 flex items-center">
-        <i class="material-icons md-36">dvr</i>
-        <span>Séries</span>
-      </a>
     </div>
   </div>
 </template>
