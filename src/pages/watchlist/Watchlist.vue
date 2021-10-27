@@ -20,6 +20,9 @@ export default {
     mounted(){
         this.ActionFindWatchlist();
     },
+    updated(){
+        this.ActionFindWatchlist();
+    },
     computed:{
         ...mapState('watchlist', ['watchlist'])
     },

@@ -1,3 +1,5 @@
 export default{
-    findWatchList: {method: 'get', url: 'user/watchlist'}
+    findWatchList: { method: 'get', url: 'user/watchlist'},
+    addOnWatchlist: { method: 'post', url: 'user/serie/watchlist'},
+    deleteFromWatchlist: { method: 'delete', url: 'user/serie/watchlist{/id}'}
 }

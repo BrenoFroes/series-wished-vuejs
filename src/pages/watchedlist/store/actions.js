@@ -9,3 +9,11 @@ export const ActionFindWatchedlist = ({ commit }) => (
         commit(types.SET_WATCHEDLIST, res.data.data)
     })
 )
+
+export const ActionAddOnWatchedlist = (context, payload ) => {
+    services.watchlisted.addOnWatchedlist(payload)
+}
+
+export const ActionDeleteFromWatchedlist = (context, payload ) => {
+    services.watchlisted.deleteFromWatchedlist({ id: payload})
+}
